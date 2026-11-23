@@ -35,7 +35,7 @@ Phone: Android 6.0 (API 23) or newer (a recent phone is recommended for video co
 Phone and tablet on the same Wi-Fi network
 
 1. Install on the tablet (Photo Frame)
-If you are using the Aluratek I referenced use ADB. Install Android platform-tools (it comes with Android Studio, or download it on its own) and make sure adb runs from a terminal. (Right click in the folder where ADB was unzipped, click on the command prompt, type ./adb install photoframe.apk, and press enter.)
+If you are using the Aluratek I referenced, use ADB. Install Android platform-tools (it comes with Android Studio, or download it on its own) and make sure adb runs from a terminal. (Right click in the folder where ADB was unzipped, click on the command prompt, type ./adb install photoframe.apk, and press enter.)
 If using a different tablet, allow installs from unknown sources (Settings > Security). 
 Copy the Photo Frame APK to the tablet (USB cable, cloud drive, etc.) and open it to install, or install over USB with adb install app-debug.apk.
 Open Photo Frame and allow the storage permission when asked.
